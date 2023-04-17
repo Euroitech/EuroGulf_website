@@ -1,0 +1,191 @@
+@media screen and (max-width:700px)
+{
+    * {}
+    
+    .width_100,.width_50,.width_25,.width_33,.width_70,.width_30,.width_60,.width_40,.width_20
+    {
+        width: 100%;
+        
+    }
+    .item .fixed_50
+    {
+        width: 100%;
+        float: right;
+    }
+    .item .fixed_50 h1
+    {
+          font-size: 20px;
+          margin: 0px;
+          text-indent: 0px;
+          padding: 2px;
+          line-height: 25px;
+    }
+    .item .fixed_50 h2 
+    {
+      font-size: 12px;
+      font-weight: 700;
+      margin-bottom: 0px;
+      margin: 0px;
+      text-indent: 10px;
+    }
+    .hide-slider 
+    {
+        display:none;
+    }
+    #welcome .width_33
+    {
+        margin-top: 5px;
+    }
+    .mob-520px h3 {
+		font-size:10px;
+		
+	}
+    /*============== menu =============*/
+    #logo_wrap .logo img
+    {
+        display: block;
+        float: left;
+        width:90%; margin: 0px 0px 0px 0px;
+    }
+    #logo_wrap .logo_wrap
+    {
+        width: 60%;
+    }
+    .acc_wrap
+    {
+        width: 30%; float: left; margin-top: 0;
+    }
+    .acc_wrap img
+    {
+        height: 40px; float: right; margin: 5px 0px 0px 0px;
+    }
+    .tele-no
+    {
+        width: 100%;
+    }
+    #uppermenu_wrap
+    {
+        display: none;
+    }
+    #nav-mob{ display: block;  }
+    .mobile_upper { display: block; }
+    
+    #header_wrap
+    {
+        background: #085DAD;
+        box-shadow: 0px 0px 3px #085DAD;
+        margin-bottom: 5px;
+    }
+    .navigation ul
+    {
+        display: block; float: left; width: 100%; padding: 0; margin: 0;
+    }
+    .navigation ul li ul
+    {
+        display: block;
+        position: relative;
+        z-index: 999;
+        width: 100%;
+        left: 0; top: 0px;
+        background: #FFF;
+    }
+    .navigation ul li:hover ul
+    {
+        display: block; 
+    }
+    .navigation ul li
+    {
+        display: block; float: left; width: 100%; margin: 0; padding: 0;
+        text-align: left;
+    }
+    .navigation ul li ul li
+    {
+        display: block; float: left; width: 100%; text-indent: 5px;
+        text-align: left; 
+    }
+    .navigation ul li a
+    {
+        display: block;  float: left; width: 95%; padding: 0 2.5%;
+        font: bold 15px/40px Century Gothic;
+        color: #FFF;
+        text-decoration: none;
+        border-bottom: 1px solid  #FFF; border-right: none;
+        cursor: pointer;
+    }
+    .navigation ul li ul li a
+    {
+    	color: #085DAD;
+
+    }
+    .navigation ul li:hover,.navigation ul li.active { background: red; }
+    .navigation ul li:hover a { color: #FFF; }
+    .navigation ul li:hover li a,.navigation ul li.active li a{ color: #085DAD; }
+    .navigation ul li li a:hover
+    {
+        background: #FFF;
+    	color: #F00;
+    }
+    .menu ul li a i
+    {
+        margin-right: 10px;
+    }
+    .navigation ul li a span
+    {
+        display: block;  
+    }
+    .indexup
+    {
+    	background-color:#FFF;
+        box-shadow: none;
+    }
+    
+    .index_placed
+    {
+    	width:49%;
+    	float: left;
+    	text-align: center;
+        margin-right: 1%;
+    }
+    .fullwidth_placement .index_placed
+    {
+    	width:49%;
+    	float: left;
+    	text-align: center;
+    }
+    .about_image
+    {
+        width: 100%;
+    }
+    .gal_img
+    {
+        height: 200px;
+    }
+    .course_h3
+    {
+        font-size: 16px; text-shadow: none;
+    }
+}
+@media screen and (max-width:520px) 
+{
+	.hide-slider {
+		display:block;
+	}
+    .sliderwrap {
+        display:none;
+    }
+	.name {
+	width:30%;
+	float: left;
+	padding-left: 15px;
+	padding-top: 20px;
+	text-align: center;
+}
+	.mob-520px h3 {
+		font-size:10px;
+		
+	}
+    .course_tab{
+  display: block;
+  width: 100%;
+  }
+}

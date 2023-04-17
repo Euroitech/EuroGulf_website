@@ -1,0 +1,135 @@
+
+
+.toggle,
+[id^=drop] {
+	display: none;
+}
+
+
+
+
+/* Media Queries
+--------------------------------------------- */
+
+@media all and (max-width : 768px) {
+
+
+
+
+
+	/* Hide the navigation menu by default */
+	/* Also hide the  */
+	.toggle + a,
+	.menu {
+		display: none;
+       
+	}
+
+	/* Stylinf the toggle lable */
+	.toggle {
+		display: block;
+		sbackground-color: #254441;
+        sbackground-color: #337ab7;
+		padding:10px 20px;	
+		color:#121212;
+		font-size:14px;
+        font-weight: 600;
+		text-decoration:none;
+		border:none;
+      
+background: rgb(58,139,194); 
+background: -moz-linear-gradient(top, rgba(58,139,194,1) 0%, rgba(206,219,233,1) 0%, rgba(206,219,233,1) 0%, rgba(170,197,222,1) 0%, rgba(58,132,195,1) 0%, rgba(65,154,214,1) 0%, rgba(97,153,199,1) 0%, rgba(58,139,194,1) 9%, rgba(58,139,194,1) 9%, rgba(75,184,240,1) 46%, rgba(75,184,240,1) 69%, rgba(38,85,139,1) 100%); 
+background: -webkit-linear-gradient(top, rgba(58,139,194,1) 0%,rgba(206,219,233,1) 0%,rgba(206,219,233,1) 0%,rgba(170,197,222,1) 0%,rgba(58,132,195,1) 0%,rgba(65,154,214,1) 0%,rgba(97,153,199,1) 0%,rgba(58,139,194,1) 9%,rgba(58,139,194,1) 9%,rgba(75,184,240,1) 46%,rgba(75,184,240,1) 69%,rgba(38,85,139,1) 100%); 
+background: linear-gradient(to bottom, rgba(58,139,194,1) 0%,rgba(206,219,233,1) 0%,rgba(206,219,233,1) 0%,rgba(170,197,222,1) 0%,rgba(58,132,195,1) 0%,rgba(65,154,214,1) 0%,rgba(97,153,199,1) 0%,rgba(58,139,194,1) 9%,rgba(58,139,194,1) 9%,rgba(75,184,240,1) 46%,rgba(75,184,240,1) 69%,rgba(38,85,139,1) 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a8bc2', endColorstr='#26558b',GradientType=0 ); 
+        
+	}
+
+	.toggle:hover {
+		background-color: #45c9eb;
+       
+	}
+
+	/* Display Dropdown when clicked on Parent Lable */
+	[id^=drop]:checked + ul {
+		display: block;
+	}
+
+	/* Change menu item's width to 100% */
+	nav ul li {
+		display: block;
+		width: 100%;
+        text-align:center;
+        border-bottom:1px solid lightskyblue;
+
+		}
+
+	nav ul ul .toggle,
+	nav ul ul a {
+		padding: 0 40px;
+	}
+
+	nav ul ul ul a {
+		padding: 0 80px;
+	}
+
+	nav a:hover,
+ 	nav ul ul ul a {
+		sbackground-color: #000000;
+        
+	}
+  
+	nav ul li ul li .toggle,
+	nav ul ul a,
+  nav ul ul ul a{
+		padding:10px 20px;	
+		color:#FFF;
+		font-size:17px; 
+        background-color:grey; 
+	}
+  
+ 
+	nav ul li ul li .toggle,
+	nav ul ul a {
+		sbackground-color: #212121; 
+        color:#fff;
+	}
+
+	/* Hide Dropdowns by Default */
+	nav ul ul {
+		float: none;
+		position:static;
+		color: #ffffff;
+		/* has to be the same number as the "line-height" of "nav a" */
+	}
+		
+	/* Hide menus on hover */
+	nav ul ul li:hover > ul,
+	nav ul li:hover > ul {
+		display: none;
+        sbackground-color: #fff;
+	}
+		
+	/* Fisrt Tier Dropdown */
+	nav ul ul li {
+		display: block;
+		width: 100%;
+	}
+
+	nav ul ul ul li {
+		position: static;
+		/* has to be the same number as the "width" of "nav ul ul li" */ 
+
+	}
+
+}
+
+@media all and (max-width : 330px) {
+
+	nav ul li {
+		display:block;
+		width: 94%;
+	}
+
+}
+

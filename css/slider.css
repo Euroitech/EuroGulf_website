@@ -1,0 +1,129 @@
+
+/*************************
+******* Home ******
+**************************/
+
+
+#slider {
+  spadding-bottom: 45px; 
+}
+.fixed_50
+{
+    width: 100%; float: left; padding: 0%; display: block;
+}
+.mayhide
+{
+    sdisplay: none;
+    position: absolute;
+    z-index: 10;
+    bottom: 0;
+}
+.carousel
+{
+    margin: 0;
+}
+.carousel-indicators li 
+{
+  background: #C4C4BE;
+}
+
+.carousel-indicators li.active {
+	  background: #FE980F;
+}
+
+.item {
+  padding-left: 0px;
+  position: relative;
+  display: block; float: left; width: 100%;
+}
+
+
+.girl {
+  margin-left: 0;
+}
+
+.item h1 {
+  color: #FFF;
+  font-size: 38px;
+  margin: 40px 20px 10px 20px;
+  text-indent: 0px;
+  border-bottom: none;
+  background: #0E1A9F;
+  display: block; float: left;
+  padding: 10px 10px;
+  width: auto;
+  text-shadow: none;
+}
+
+.item h1 span,.comp_color {
+	color:#fff;
+}
+
+.item h2 
+{
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0px;
+  text-indent: 30px;
+  display: block; float: left;
+  padding: 10px 0px;
+  width: auto;
+  display: none;
+}
+
+.item  p 
+{
+	color:#363432;
+	font-size:18px;
+	font-weight:300;
+    line-height: 25px;
+}
+
+
+.control-carousel {
+  position: absolute;
+  top: 40%;
+  font-size: 60px;
+  color: #C2C2C1;
+}
+.control-carousel.left
+{
+    left: 0;
+}
+.control-carousel.right
+{
+    right: 0;
+}
+.control-carousel:hover{
+  color: #FE980F ;
+}
+/********************
+ * FEATURE CAROUSEL *
+ ********************/
+.sliderwrap {
+  position:relative;
+  max-width:1200px;
+  margin:0 auto;
+}
+#carousel {
+  height:  auto; display: block; float: left;
+  width:100%;
+  position:relative;
+}
+#carousel img {
+  border:0;
+  display:block;
+  width: 100%;  height: 100%;
+  float: left;
+  border: 1px solid #aaa;
+}
+.carousel-feature {
+  position:absolute;
+  top:-1000px;
+  left:-1000px;
+  cursor:pointer;
+  width: 33%; height: 400px;
+  margin: 0;
+}

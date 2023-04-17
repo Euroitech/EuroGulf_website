@@ -1,0 +1,293 @@
+@font-face 
+
+
+
+div
+{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+         -o-box-sizing: border-box;
+    position: relative;
+}
+.page_wrap
+{
+    sborder: 1px solid red;
+    width: 100%; display: block; float: left;
+}
+.header
+{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+.width_100,.width_50,.width_75,.width_25,.width_33,.width_80,.width_20,.width_70,.width_30,.width_60,.width_40,.width_38,.width_98
+{
+    display: block; float: left; spadding: 0.5%;
+}
+.width_100 { width: 100%; } .width_75 { width: 75%; } .width_50 { width: 50%; } .width_25 { width: 25%; } .width_33 { width: 33.3333333333337%; }
+.width_80 { width: 80%; }
+.width_70 { width: 70%; } .width_30 { width: 30%; }.width_20 { width: 20%; }
+.width_60 { width: 60%; } .width_40 { width: 40%; }
+.width_38 { width: 38%; }.width_98 { width: 98%; }
+
+.clear
+{
+    display: block;  width: 100%;  float: left; clear: both;
+}
+.clearfix:after {
+    clear: both;
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.clearfix {
+    display: inline-block;
+}
+.clearfix {
+    display: block;
+}
+
+.wrap
+{
+    width: 98%;
+    max-width: 1200px;
+    margin: 0 auto; 
+     sborder: 1px solid red;
+}
+@media (max-width: 320px) {
+    header {
+    width: 100%;
+    sbackground: #20DDBE;
+    sheight: 140px;
+    
+}
+    .table-section {
+    sbackground: url(../image/table-bg.png) no-repeat;
+    sbackground-size: cover;
+    display: block;
+    text-align: center;
+    padding: 510px 0 105px;
+}
+.cente_icon p{
+    font-family:'ProximaNovaA-Semibold';
+    font-size: 14px;
+    font-weight: bold;
+    float:left;
+    width:100%;
+}
+.cente_icon p a
+{
+    font-family:'ProximaNovaA-Semibold';
+    font-size: 14px;
+    font-weight: bold;
+}
+.code img{
+    margin:0px;
+    padding: 0px;
+    float:left;
+    swidth:100%;
+    text-align: left;
+    sheight: 400px;
+    border-radius:10px;
+    width:100%;
+    
+    
+}
+.support p 
+{
+    font-size: 10px;
+}
+.client-item .client-content {
+    background: #fff;
+    spadding: 20px;
+    padding-bottom: 60px;
+    box-shadow: 0 1px 10px 1px #E8E8E8;
+    font-size: 10px;
+}
+
+    }
+@media (max-width: 480px) {
+
+
+header {
+    width: 100%;
+    sbackground: #20DDBE;
+    sheight: 100px;
+}
+.table-section {
+    sbackground: url(../image/table-bg.png) no-repeat;
+    sbackground-size: cover;
+    display: block;
+    text-align: center;
+    padding: 80px 0 105px;
+}
+.client-item .client-content {
+    background: #fff;
+    spadding: 20px;
+    padding-bottom: 60px;
+    box-shadow: 0 1px 10px 1px #E8E8E8;
+}
+.consult_img2
+{
+    height: 200px;
+    width:100%;
+}
+#clickhere a{
+    stop: 20px;
+    sleft: 160px;
+    width: 100%;
+    height:50%;
+    sposition: absolute;
+    padding:100%;
+}
+.cente_icon p{
+    font-family:'ProximaNovaA-Semibold';
+    font-size: 14px;
+    font-weight: bold;
+    float:left;
+    width:100%;
+}
+.cente_icon p a
+{
+    font-family:'ProximaNovaA-Semibold';
+    font-size: 14px;
+    font-weight: bold;
+}
+.code img{
+    margin:0px;
+    padding: 0px;
+    float:left;
+    width:100%;
+    text-align: left;
+    sheight: 400px;
+    border-radius:10px;
+    
+}
+.support p 
+{
+    font-size: 10px;
+}
+#clickhere1 a{
+    top: 55px;
+    left: 190px;
+    width: 9%;
+    height:15%;
+    position: absolute;
+}
+#clickhere2 a{
+    top: 85px;
+    left: 175px;
+    width: 9%;
+    height:15%;
+    position: absolute;
+}
+#clickhere4 a{
+    top: 25px;
+    left: 255px;
+    width: 19%;
+    height:5%;
+    position: absolute;
+}
+.certificateimg1
+{
+    padding: 20px;
+    background-color:  white;
+    border-radius: 0px 0px 10px 10px;
+    
+}
+.certificateimg1 img
+{
+    width: 100%;
+    height: 100px;
+    border:5px solid #45c9eb;
+    
+}
+}
+@media (max-width: 768px) {
+
+
+header {
+    width: 100%;
+    sbackground: #20DDBE;
+    sheight: 140px;
+    
+}
+.table-section {
+    sbackground: url(../image/table-bg.png) no-repeat;
+    sbackground-size: cover;
+    display: block;
+    text-align: center;
+    padding: 10px 0 10px;
+}
+#clickhere a{
+    stop: 20px;
+    sleft: 160px;
+    width: 100%;
+    sheight:5%;
+    position: absolute;
+    padding:50px;
+}
+#clickhere1 a{
+     stop: 20px;
+    sleft: 160px;
+    width: 100%;
+    sheight:5%;
+    sposition: absolute;
+    padding:100px;
+}
+#clickhere2 a{
+     stop: 20px;
+    sleft: 160px;
+    width: 100%;
+    sheight:5%;
+    sposition: absolute;
+    padding:100px;
+}
+#clickhere4 a{
+    stop: 20px;
+    sleft: 160px;
+    width: 50%;
+    sheight:5%;
+    sposition: absolute;
+    padding:50px;
+}
+
+    
+.cente_icon p{
+    font-family:'ProximaNovaA-Semibold';
+    font-size: 14px;
+    font-weight: bold;
+    float:left;
+    width:100%;
+}
+.cente_icon p a
+{
+    font-family:'ProximaNovaA-Semibold';
+    font-size: 14px;
+    font-weight: bold;
+}
+.support p
+{
+    font-size: 12px;
+}
+.support1 p
+{
+    width:100%;
+    font-size: 14px;
+    float:left;
+}
+.client-section1 .section-title1 {
+    scolor: #e53099;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: 'ProximaNovaA-Bold';
+    margin: 0;
+    padding: 10px;
+    background: gray;
+}
+}
